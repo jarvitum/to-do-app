@@ -1,2 +1,2 @@
-# to-do-app.github.io
+# to-do-app
 First MERN Site
