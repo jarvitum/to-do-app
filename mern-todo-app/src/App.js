@@ -1,4 +1,4 @@
-
+import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
@@ -9,7 +9,7 @@ import TodosList from "./components/todos-list.component";
 
 import logo from "./logo.png";
 
-class App() {
+class App extends Component{
   render() {
     return (
       <Router>
