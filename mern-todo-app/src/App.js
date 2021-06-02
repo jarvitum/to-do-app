@@ -9,7 +9,7 @@ import TodosList from "./components/todos-list.component";
 
 import logo from "./logo.png";
 
-class App () {
+class App() {
   render() {
     return (
       <Router>
